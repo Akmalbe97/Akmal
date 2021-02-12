@@ -1,0 +1,167 @@
+body {
+    background-color: rgb(136, 45, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.hammasi {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(78, 39, 114);
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px;
+    color: white;
+    transform: translate(150px, 30px);
+}
+.facebook {
+    width: 130px;
+    height: 15%;
+    border-radius: 50%;
+    border: chocolate solid 1px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: darkcyan;
+}
+.twitter {
+    width: 130px;
+    height: 15%;
+    border-radius: 50%;
+    border: chocolate solid 1px;
+    margin-top: 10px;
+    margin-left: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aqua;
+}
+.tekst1 {
+    margin-left: 60px;
+    
+}
+.tekst2 {
+    margin-left: 15px;
+}
+p {
+    font-size: 13px;
+    color: darkgrey;
+}
+.formlar form input {
+    display: flex;
+    transform: translate(-230px, 200px);
+    margin-top: -10px;
+    width: 310px;
+    height: 43px;
+    border: rgb(189, 125, 80) 1px solid;
+    border-radius: 7px;
+    color: rgb(228, 218, 218);
+    background-color: rgb(66, 7, 121);
+    font-size: large;
+    padding-left: 10px;
+
+}
+#as {
+    margin-bottom: 30px;
+}
+form p {
+    transform: translate(-145px, 195px);
+    font-size: 18px;
+    color: chocolate;
+}
+.button1 button {
+   transform: translate(-230px, 220px);
+   width: 320px;
+   height: 43px;
+   font-size: large;
+   border: rgb(216, 141, 88) 1px solid;
+   border-radius: 7px;
+   background-color: rgb(8, 156, 15);
+}
+
+.button2 button {
+    transform: translate(-230px, 260px);
+    width: 320px;
+    height: 43px;
+    border-radius: 7px;
+    font-size: large;
+    background-color: rgb(203, 206, 63);
+    border: rgb(218, 135, 77) 1px solid;
+}
+
+@media (max-width: 600px) {
+    .facebook {
+        width: 130px;
+        height: 15%;
+        border-radius: 50%;
+        border: chocolate solid 1px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        transform: translate(35px, 0px);
+        color: aqua;
+    }
+    .twitter {
+        width: 130px;
+        height: 15%;
+        border-radius: 50%;
+        border: chocolate solid 1px;
+        margin-top: 10px;
+        margin-left: -5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        transform: translate(-40px, 80px);
+        color: aqua;
+    }
+    .tekst1 {
+        transform: translate(35px);
+    }
+    .tekst2 {
+        transform: translate(-225px, 70px);
+    }
+        .formlar form input {
+            display: flex;
+            transform: translate(-220px, 250px);
+            margin-top: -10px;
+            width: 310px;
+            height: 43px;
+            border: chocolate 1px solid;
+            border-radius: 7px;
+            color: rgb(228, 218, 218);
+            background-color: rgb(66, 7, 121);
+            font-size: large;
+            padding-left: 10px;
+        }
+        form p {
+            transform: translate(-145px, 245px);
+            font-size: 18px;
+            color: chocolate;
+        }
+        .button1 button {
+            transform: translate(-230px, 250px);
+            width: 320px;
+            height: 43px;
+            font-size: large;
+            border: chocolate 1px solid;
+            border-radius: 7px;
+            background-color: rgb(8, 156, 15);
+        }
+}

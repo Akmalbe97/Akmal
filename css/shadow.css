@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.content {
+    width: 50%;
+    height: 500px;
+    background-color: yellowgreen;
+    border: 2px solid gray;
+    box-shadow: 7px 10px 10px 7px gray, 7px 10px 10px 7px gray;
+    border-radius: 10px;
+}

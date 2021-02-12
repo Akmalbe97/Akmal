@@ -1,0 +1,22 @@
+body {
+    font-family: 'lucida Grande';
+}
+header {
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo i {
+    font-size: 72px;
+    color: darkorange;
+}
+nav ul, .messengers ul  {
+    list-style:none;
+    display: flex;
+    flex-direction: row ;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

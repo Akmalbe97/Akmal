@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+.content {
+    background-color: blueviolet;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    text-align: center;
+}
+.new {
+    width: 50px;
+    transform: matrix(1, 0, 0, 1, -176, -322);
+    background-color: red;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-45deg);
+    transform: m;
+}

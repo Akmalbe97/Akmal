@@ -1,0 +1,75 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.akm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: -30px;
+    width: 550px;
+    
+}
+.form {
+    margin-bottom: 50px;
+}
+.akmal {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83, 240, 83);
+    margin-bottom: 60px;
+    width: 550px;
+    font-size: 16px;
+}
+input {
+    display: flex;
+    border-radius: 30px;
+    color: rgb(4, 100, 4);
+    width:550px;
+    margin-bottom: 25px;
+    padding-left:  25px;
+    height: 45px;
+    font-size: 18px;
+    border-color: rgb(197, 187, 187);
+}
+p {
+    margin-bottom: -1px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mmm button {
+    border-radius: 30px;
+    background-color: blue;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+@media (max-width: 650px){
+    input {
+        display: flex;
+        border-radius: 30px;
+        color: rgb(4, 100, 4);
+        width:400px;
+        margin-bottom: 25px;
+        padding-left:  25px;
+        height: 45px;
+        font-size: 18px;
+        border-color: rgb(197, 187, 187);
+    }
+    .akm {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    }
+

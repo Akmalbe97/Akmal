@@ -1,0 +1,119 @@
+section {
+    width: 100%px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+h1 {
+    text-align: center;
+}
+div {
+    margin: 20px;
+}
+p {
+    margin-top: 5px;
+}
+.box1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box1 div {
+    width: 300px;
+}
+.box2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box2 div {
+    width: 300px;
+}
+.box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box3 div {
+    width: 300px;
+    
+}
+.raqam {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.raqam b {
+    font-size: 30px;
+}
+.knopka {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+button {
+    margin: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(96, 218, 147, 0.904);
+    border: none;
+}
+.next button {
+    width: 150px;
+    height: 35px;
+}
+.back {
+    display: flex;
+    align-items: flex-end;
+}
+button i {
+    display: flex;
+    align-items: center;
+    
+}
+footer {
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 300px;
+    padding-left: 20px;
+    margin-left: -10px;
+}
+.logo {
+    color: white;
+    margin-left: 175px;
+    font-size: 30px;
+}
+
+.aloqa {
+    color: white;
+    margin-left: 150px;
+}
+.internet  {
+    color: white;
+    margin-left: 170px
+}
+@media (max-width: 500px){
+    section {
+        width: 100%px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+}
+@media (max-width: 900px) {
+    .box3 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

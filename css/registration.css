@@ -1,0 +1,171 @@
+header {
+    display: flex;
+    flex-direction: row;
+    border: rgb(243, 236, 223) solid 3px;
+    border-top: oldlace;
+    border-left: oldlace;
+    border-right: oldlace;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo p {
+    margin-left: 15px;
+    font-weight: bold;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 120px;
+}
+.email a {
+    color: rgb(20, 20, 20);
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: baseline;
+    width: 63.5%;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.menu p {
+    margin: 18px;
+}
+.registratsiya button {
+    background-color: rgb(135, 135, 245);
+    border-radius: 40px;
+    margin: 10px;
+    color: ivory;
+    width: 150px;
+    height: 30px;
+}
+.buyurtma button {
+    background-color: rgb(150, 240, 6);
+    border-radius: 40px;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.font p {
+    font-weight: bold;
+}
+.font b {
+    color: rgb(3, 3, 231);
+}
+.container {
+    width: 420px;
+    height: 290px;
+    background-color: white;
+    border: rgb(233, 233, 233) solid 3px;
+    display: flex;
+    flex-direction: row;
+    transform: translate(120px, 130px);
+   
+}
+.container div {
+    margin: 25px;
+    color: rgb(18, 19, 19);
+}
+.rasm  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 75%;
+    height: 580px; 
+    transform: translate(340px, -280px);
+    
+}
+.sign {
+    transform: translate(120px, -200px)
+}
+.sign p {
+    width: 300px;
+    color: blue;
+}
+.sign p b {
+    color: black;
+}
+.forma input {
+    margin-bottom:  20px;
+    width: 400px;
+    height: 30px;
+    border: rgb(211, 208, 208) solid 2px;
+    border-radius: 25px;
+    padding-left:  20px;
+}
+.text textarea {
+    padding-left: 20px; 
+    padding-top: 20px; 
+    border: rgb(211, 208, 208) solid 2px;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    background-color: rgb(72, 175, 235);
+    color: #fff;
+    padding-left: 2px;  
+    border: rgb(211, 208, 208) solid 2px;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    margin-left: -9px;
+    margin-right: -10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.copy {
+    transform: translate(-600px, 30px);
+}
+.tashkilot {
+    transform: translate(-345px, 12px);
+}
+.sayt {
+    transform: translate(463px, -5px);
+}
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        border: rgb(243, 236, 223) solid 3px;
+        border-top: oldlace;
+        border-left: oldlace;
+        border-right: oldlace;
+    }
+    .email {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start ;
+        margin-left: 120px;
+    }
+    .right {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        align-items: baseline;
+        width: 50%;
+    }
+
+}
