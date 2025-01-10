@@ -13,4 +13,4 @@
 
 ### 📫 Contact Me:
 - [GitHub](https://github.com/AkmalOllaberganov)
-- [LinkedIn](#) (linkedin.com/in/akmal-ollaberganov-6379a521a)
+- [LinkedIn] (https://www.linkedin.com/in/akmal-ollaberganov-6379a521a/)
