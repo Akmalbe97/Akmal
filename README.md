@@ -4,7 +4,7 @@ My Skills and Experiences
 I am a passionate and dedicated full-stack developer with a strong focus on JavaScript, Node.js, and backend development. I enjoy building scalable web applications and solving real-world problems using modern technologies.
 
 🚀 Technical Skills:          
-Programming Languages: JavaScript (ES6+), TypeScript, HTML, CSS
+Programming Languages: JavaScript (ES6+), TypeScript
 
 Backend: Node.js, Express.js, NestJS
 
