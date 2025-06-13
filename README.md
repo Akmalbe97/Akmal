@@ -8,8 +8,6 @@ Programming Languages: JavaScript (ES6+), TypeScript
 
 Backend: Node.js, Express.js, NestJS
 
-Frontend: basic React
-
 Databases: PostgreSQL, MongoDB
 
 ORMs: TypeORM, Mongoose
